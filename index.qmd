@@ -13,7 +13,9 @@ editor_options:
 
 ## {#title-slide data-menu-title="Title Slide" background="#053660"} 
 
-[GitHub Glowup: Stand out with a customized GitHub profile]{.custom-title}
+[{{< fa brands github >}} GitHub Glowup]{.custom-title}
+
+[*Stand out with a customized GitHub profile*]{.custom-subtitle}
 
 :::: {.columns}
 
@@ -47,6 +49,8 @@ editor_options:
 
 ::: {.title-footer}
 Slides & source code available on [GitHub {{< fa brands github title="GitHub Octocat logo" >}}](https://github.com/UCSB-MEDS/customize-github-profile){target="_blank"}
+
+*Part of the [MEDS Career & Professional Development Workshop Series](https://ucsb-meds.github.io/career-professional-dev/materials/f-week6-github.html){target="_blank"}*
 :::
 ---
 
