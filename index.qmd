@@ -85,11 +85,13 @@ Slides & source code available on [GitHub {{< fa brands github title="GitHub Oct
 
 ---
 
-## {#photo-bio data-menu-title="Add a photo & bio"} 
+## {#photo-bio1 data-menu-title="Add a photo & bio 1"} 
 
-[Personalize your profile]{.slide-title}
+[1. Personalize your profile]{.slide-title}
 
 <hr>
+
+<br>
 
 :::: {.columns}
 
@@ -99,7 +101,7 @@ Slides & source code available on [GitHub {{< fa brands github title="GitHub Oct
 #| echo: false
 #| out-width: "70%"
 #| fig-align: "center"
-knitr::include_graphics("images/identicon.png")
+knitr::include_graphics(here::here("images", "identicon.png"))
 ```
 
 ::: {.center-text .gray-text .body-text-s}
@@ -107,18 +109,43 @@ By default, your profile photo is a unique [Identicon](https://github.blog/news-
 :::
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" .body-text-m}
 - Takes very little time and "gives a sense of authenticity"
 - Photo makes your commits / contributions more easily recognizable
 - Short bio is a nice quick intro + links to your public profiles / website(s)
-
-<br>
-
-::: {.center-text .blue-box}
-[**To update your profile image and information:**]{.dark-blue-text} 
-
-*Click on your profile image, which takes you directly to your settings page*
 :::
+::::
+
+---
+
+## {#photo-bio2 data-menu-title="Add a photo & bio 2"} 
+
+[1. Personalize your profile]{.slide-title}
+
+<hr>
+
+:::: {.columns}
+::: {.column width="50%"}
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "55%"
+#| fig-align: "center"
+knitr::include_graphics(here::here("images", "sam-bio.png"))
+```
+:::
+
+::: {.column width="50%"}
+[**To update your profile image and bio, click on *Edit profile* or on your photo. Consider adding:**]{.dark-blue-text} 
+
+- a photo!
+- your pronouns
+- your company or school 
+- current location
+- personal website URL
+- social media (LinkedIn & Bluesky are great options to include!) -- best if these are professional accounts
+- a *short* bio -- your current title or role, or even a tagline is great here
 :::
 ::::
 
@@ -130,51 +157,7 @@ Find more information on [GitHub Docs](https://docs.github.com/en/account-and-pr
 
 ## {#pin-repos1 data-menu-title="Pin your top repos 1"} 
 
-[Pin the repos that demonstrate your skills]{.slide-title}
-
-<hr>
-
-:::: {.columns}
-
-::: {.column width="50%"}
-- **Each should be well-organized**, have a README, and ideally a short description (update "About" section)
-- **Order them** from most > least "important"
-- **Update your pinned repos** as necessary
-- **Which repos should you pin?**
-  - *"things that do the best job of communicating the skills that you're bringing to the table"* (A. Haddad)
-    - personal website is a great place to start!
-    - personal projects
-    - course projects
-    - capstone repo(s)
-    
-:::
-
-::: {.column width="50%"}
-
-<br>
-<br>
-<br>
-<br>
-
-::: {.center-text .blue-box}
-[**To pin (up to six) repositories:**]{.dark-blue-text}
-
-**A.** *Navigate to your desired repo > click Pin (top right)*, or
-
-**B.** *If you already have a pinned repo(s): navigate to you landing page > click Customize your pins > check up to 6 boxes*
-:::
-:::
-::::
-
-::: {.footer}
-Find more information on [GitHub Docs](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile)
-:::
-
----
-
-## {#pin-repos2 data-menu-title="Pin your top repos 2"} 
-
-[Pin the repos that demonstrate your skills]{.slide-title}
+[2. Pin repos that showcase your skills]{.slide-title}
 
 <hr>
 
@@ -183,7 +166,7 @@ Find more information on [GitHub Docs](https://docs.github.com/en/account-and-pr
 #| echo: false
 #| out-width: "100%"
 #| fig-align: "center"
-knitr::include_graphics("images/pin-tour.png")
+knitr::include_graphics(here::here("images", "pin-tour.png"))
 ```
 
 ::: {.footer}
@@ -192,9 +175,38 @@ Find more information on [GitHub Docs](https://docs.github.com/en/account-and-pr
 
 ---
 
+## {#pin-repos1 data-menu-title="Pin your top repos 1"} 
+
+[2. Pin repos that showcase your skills]{.slide-title}
+
+<hr>
+
+<!-- :::: {.columns}
+
+::: {.column width="50%"} -->
+::: {.incremental}
+- [**Each should be well-organized**]{.teal-text}, have a README, and ideally a short description (update "About" section)
+- [**Order them**]{.teal-text} from most > least "important"
+- [**Update your pinned repos**]{.teal-text} as necessary
+- [**Which repos should you pin?**]{.teal-text}
+  - *"things that do the best job of communicating the skills that you're bringing to the table"* (A. Haddad)
+    - personal website is a great place to start!
+    - personal projects
+    - course projects and / or capstone repo(s)
+:::
+
+. . . 
+
+[**Pin up to 6 repositories by:**]{.body-text-m .dark-blue-text}
+
+- Navigating to your desired repo > click *Pin* (top right), ***or***
+- If you already have a pinned repo(s): from landing page, click *Customize your pins*, then check up to 6 boxes
+
+---
+
 ## {#contributions data-menu-title="Contributions"} 
 
-[Contributions show your commits]{.slide-title}
+[3. Make sure your contributions count]{.slide-title}
 
 <hr>
 
@@ -211,31 +223,38 @@ Find more information on [GitHub Docs](https://docs.github.com/en/account-and-pr
 #| echo: false
 #| out-width: "100%"
 #| fig-align: "center"
-knitr::include_graphics("images/contributions.png")
+knitr::include_graphics(here::here("images", "contributions.png"))
 ```
 
 ::: {.footer}
-Troubleshooting or trying to understand your contributions map? Check out this help documentation: [Why are my contributions now showing up on my profile?](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile)
+**Troubleshooting or trying to understand your contributions map? Check out this help documentation: [Why are my contributions now showing up on my profile?](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile)**
 :::
 
 ---
 
 ## {#profile-readme1 data-menu-title="Profile README 1"} 
 
-[Add a profile README]{.slide-title}
+[4. Add a profile README]{.slide-title}
 
 <hr>
-
-<br>
-<br>
 
 ```{r}
 #| eval: true
 #| echo: false
 #| out-width: "100%"
 #| fig-align: "center"
-knitr::include_graphics("images/octocat-profile-readme-edited.png")
+knitr::include_graphics(here::here("images", "octocat-profile-readme-edited.png"))
 ```
+
+<br>
+
+. . .
+
+[**To add a profile README:**]{.body-text-m .dark-blue-text}
+
+1. Create a new repo and give it the **same name** as your GitHub username (e.g. [my repo](https://github.com/samanthacsik/samanthacsik) is named "samanthacsik", which matches my GitHub username)
+2. Make sure your repo is **Public** and initialize it with a **README**
+3. Click the **Edit README** button to edit directly in the browser (I find this easier than cloning and editing locally)
 
 ::: {.footer}
 See [GitHub documentation](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) for more info on profile READMEs 
@@ -245,41 +264,20 @@ See [GitHub documentation](https://docs.github.com/en/account-and-profile/settin
 
 ## {#profile-readme2 data-menu-title="Profile README 2"} 
 
-[Add a profile README]{.slide-title}
+[4. Add a profile README]{.slide-title}
 
 <hr>
 
-:::: {.columns}
-
-::: {.column width="50%"}
-- A place to introduce yourself! 
+::: {.incremental .body-text-m}
+- *A place to introduce yourself!* 
 - Consider including:
-  - A version of **your bio**  
-  - **Impactful contributions** you've made (and context)
-  - **Personal project** descriptions + links
-  - Something(s) that you're **currently working on**
-  - Guidance on how to connect with your **professional communities**
+  - A version of [**your bio**]{.teal-text} (I start mine off with text from my personal website landing page) 
+  - [**Impactful contributions**]{.teal-text} you've made (and context)
+  - [**Personal project**]{.teal-text} descriptions + links
+  - Something(s) that you're [**currently working on**]{.teal-text}
+  - Guidance on how to connect with your [**professional communities**]{.teal-text}
 - Some template suggestions are provided when you first create your repo / initialize your README (and check out the [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/))
-  
-:::
-
-::: {.column width="50%"}
-
-<br>
-<br>
-
-::: {.center-text .blue-box}
-[**To add a profile README:**]{.dark-blue-text}
-
-**1.** *Create a new repo and give it the **same name** as your GitHub username (e.g. [my repo](https://github.com/samanthacsik/samanthacsik) is named "samanthacsik")*
-
-**2.** *Make sure your repo is **Public** and initialize it with a **README***
-
-**3.** *Click the **Edit README** button to edit directly in the browser (I find this easier than cloning and editing locally)*
-:::
-:::
-
-::::
+::: 
 
 ::: {.footer}
 See the [GitHub documentation](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) for more info on profile READMEs
@@ -287,13 +285,13 @@ See the [GitHub documentation](https://docs.github.com/en/account-and-profile/se
 
 ---
 
-## {#explore-other-profile-readmes data-menu-title="Explore other profile READMEs"} 
+## {#profile-readme3 data-menu-title="Profile README 3"} 
 
-[Explore / adapt from other profile READMEs]{.slide-title2}
+[4. Add a profile README]{.slide-title}
 
 <hr>
 
-See someone with a really cool README? Check out the source code! Navigate to their profile README repo > click on the `README.md` file > switch to "Code" view:
+See someone with a really cool README? [**Check out the source code!**]{.teal-text} Navigate to their profile README repo > click on the `README.md` file > switch to "Code" view:
 
 <br>
 
@@ -302,7 +300,7 @@ See someone with a really cool README? Check out the source code! Navigate to th
 #| echo: false
 #| out-width: "100%"
 #| fig-align: "center"
-knitr::include_graphics("images/profile-readme-source.gif")
+knitr::include_graphics(here::here("images", "profile-readme-source.gif"))
 ```
 
 <br>
@@ -335,30 +333,37 @@ knitr::include_graphics("images/profile-readme-source.gif")
 
 <hr>
 
-*A few simple ways to ensure that assistive technology can help users understand and navigate your README:*
+[**A few simple ways to ensure that assistive technology can help users understand and navigate your README:**]{.dark-blue-text .body-text-m}
 
 . . . 
 
-1. **Make links descriptive:** assistive technologies present links in isolation, so provide context
-    - e.g. opt for *"Find the [EDS 296-1F course description](https://bren.ucsb.edu/courses/eds-296-1f)..."* rather than *"Find the EDS 296-1F course description [here](https://bren.ucsb.edu/courses/eds-296-1f)"*
+1. [**Make links descriptive:**]{.teal-text} assistive technologies present links in isolation, so provide context
+    - e.g. opt for *"Find the [Career & Professional Development Workshop materials](https://ucsb-meds.github.io/career-professional-dev/)..."* rather than *"Find Career & Professional Development Workshop materials [here](https://ucsb-meds.github.io/career-professional-dev/)"*
 
 . . .
 
-2. **Add alt text to images:** screen readers read alt text descriptions out loud
+2. [**Add alt text to images:**]{.teal-text} screen readers read alt text descriptions out loud
     - e.g. in html, `<img src="image-url.com" alt="This is alt text">`
 
 . . . 
 
-3. **Use proper heading structure:** helps people understand content structure and more easily navigate sections
+3. [**Use proper heading structure:**]{.teal-text} helps people understand content structure and more easily navigate sections
     - e.g. use `#` for your title, then the appropriate level-header thereafter (don't skip levels)
 
 . . . 
 
-4. **Structure lists with proper markup:** helps people understand lists as they are intended
+4. [**Structure lists with proper markup:**]{.teal-text} helps people understand lists as they are intended
     - e.g. use `*` or `-` for each list item, rather than special characters or emojis
 
 ::: {.footer}
-The above pointers come from the [github.blog](https://github.blog/) post, [5 tips for making your GitHub profile page accessible](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/). 
-
-**Importantly, these tips apply for *all* web pages, not just your GitHub profile README!**
+The above pointers come from the [github.blog](https://github.blog/) post, [5 tips for making your GitHub profile page accessible](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/), and they apply to *all* web pages, not just your README!
 :::
+
+---
+
+##  {#end data-menu-title="# END #" background="#047C90"}
+
+<div class="page-center vertical-center">
+<p class="custom-subtitle bottombr">You may use the remainder of our time to finish customizing your GitHub profile!</p>
+<!-- <p class="caption-text">*~ This is the end of Lesson 2 (of 2) ~*</p> -->
+</div>
