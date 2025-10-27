@@ -35,7 +35,7 @@ editor_options:
 
 ::: {.column width="50%"}
 [Sam Shanny-Csik |]{.custom-subtitle2}<br>
-*[Lecturer & Data Training Coordinator]{.custom-subtitle3}*
+*[Lecturer & Data Science Programs Manager]{.custom-subtitle3}*
 :::
 
 ::: {.column width="50%"}
@@ -105,7 +105,7 @@ knitr::include_graphics(here::here("images", "identicon.png"))
 ```
 
 ::: {.center-text .gray-text .body-text-s}
-By default, your profile photo is a unique [Identicon](https://github.blog/news-insights/company-news/identicons/), which is generated from your GitHub user ID -- pretty cool! But you should absolutely update this with your photo.
+By default, your profile photo is a unique [Identicon](https://github.blog/news-insights/company-news/identicons/){target="_blank"}, which is generated from your GitHub user ID -- pretty cool! But you should absolutely update this with your photo.
 :::
 :::
 
@@ -150,7 +150,7 @@ knitr::include_graphics(here::here("images", "sam-bio.png"))
 ::::
 
 ::: {.footer}
-Find more information on [GitHub Docs](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile)
+Find more information on [GitHub Docs](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile){target="_blank}
 :::
 
 ---
@@ -170,7 +170,7 @@ knitr::include_graphics(here::here("images", "pin-tour.png"))
 ```
 
 ::: {.footer}
-Find more information on [GitHub Docs](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile)
+Find more information on [GitHub Docs](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile){target="_blank}
 :::
 
 ---
@@ -227,7 +227,7 @@ knitr::include_graphics(here::here("images", "contributions.png"))
 ```
 
 ::: {.footer}
-**Troubleshooting or trying to understand your contributions map? Check out this help documentation: [Why are my contributions now showing up on my profile?](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile)**
+**Troubleshooting or trying to understand your contributions map? Check out this help documentation: [Why are my contributions now showing up on my profile?](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile){target="_blank}**
 :::
 
 ---
@@ -252,12 +252,12 @@ knitr::include_graphics(here::here("images", "octocat-profile-readme-edited.png"
 
 [**To add a profile README:**]{.body-text-m .dark-blue-text}
 
-1. Create a new repo and give it the **same name** as your GitHub username (e.g. [my repo](https://github.com/samanthacsik/samanthacsik) is named "samanthacsik", which matches my GitHub username)
+1. Create a new repo and give it the **same name** as your GitHub username (e.g. [my repo](https://github.com/samanthacsik/samanthacsik){target="_blank} is named "samanthacsik", which matches my GitHub username)
 2. Make sure your repo is **Public** and initialize it with a **README**
 3. Click the **Edit README** button to edit directly in the browser (I find this easier than cloning and editing locally)
 
 ::: {.footer}
-See [GitHub documentation](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) for more info on profile READMEs 
+See [GitHub documentation](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme){target="_blank} for more info on profile READMEs 
 :::
 
 ---
@@ -276,11 +276,11 @@ See [GitHub documentation](https://docs.github.com/en/account-and-profile/settin
   - [**Personal project**]{.teal-text} descriptions + links
   - Something(s) that you're [**currently working on**]{.teal-text}
   - Guidance on how to connect with your [**professional communities**]{.teal-text}
-- Some template suggestions are provided when you first create your repo / initialize your README (and check out the [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/))
+- Some template suggestions are provided when you first create your repo / initialize your README (and check out the [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/){target="_blank})
 ::: 
 
 ::: {.footer}
-See the [GitHub documentation](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) for more info on profile READMEs
+See the [GitHub documentation](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme){target="_blank} for more info on profile READMEs
 :::
 
 ---
@@ -322,7 +322,7 @@ knitr::include_graphics(here::here("images", "profile-readme-source.gif"))
 :::
 
 ::: {.right-align-text}
-[-W3C Web Accessibility Initiative](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
+[-W3C Web Accessibility Initiative](https://www.w3.org/WAI/fundamentals/accessibility-intro/){target="_blank}
 :::
 
 ---
@@ -338,7 +338,7 @@ knitr::include_graphics(here::here("images", "profile-readme-source.gif"))
 . . . 
 
 1. [**Make links descriptive:**]{.teal-text} assistive technologies present links in isolation, so provide context
-    - e.g. opt for *"Find the [Career & Professional Development Workshop materials](https://ucsb-meds.github.io/career-professional-dev/)..."* rather than *"Find Career & Professional Development Workshop materials [here](https://ucsb-meds.github.io/career-professional-dev/)"*
+    - e.g. opt for *"Find the [Career & Professional Development Workshop materials](https://ucsb-meds.github.io/career-professional-dev/){target="_blank"}..."* rather than *"Find Career & Professional Development Workshop materials [here](https://ucsb-meds.github.io/career-professional-dev/){target="_blank"}"*
 
 . . .
 
@@ -356,7 +356,7 @@ knitr::include_graphics(here::here("images", "profile-readme-source.gif"))
     - e.g. use `*` or `-` for each list item, rather than special characters or emojis
 
 ::: {.footer}
-The above pointers come from the [github.blog](https://github.blog/) post, [5 tips for making your GitHub profile page accessible](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/), and they apply to *all* web pages, not just your README!
+The above pointers come from the [github.blog](https://github.blog/){target="_blank"} post, [5 tips for making your GitHub profile page accessible](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/){target="_blank"}, and they apply to *all* web pages, not just your README!
 :::
 
 ---
