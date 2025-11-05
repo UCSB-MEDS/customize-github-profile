@@ -150,7 +150,7 @@ knitr::include_graphics(here::here("images", "sam-bio.png"))
 ::::
 
 ::: {.footer}
-Find more information on [GitHub Docs](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile){target="_blank}
+Find more information on [GitHub Docs](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile){target="_blank"}
 :::
 
 ---
@@ -252,12 +252,12 @@ knitr::include_graphics(here::here("images", "octocat-profile-readme-edited.png"
 
 [**To add a profile README:**]{.body-text-m .dark-blue-text}
 
-1. Create a new repo and give it the **same name** as your GitHub username (e.g. [my repo](https://github.com/samanthacsik/samanthacsik){target="_blank} is named "samanthacsik", which matches my GitHub username)
+1. Create a new repo and give it the **same name** as your GitHub username (e.g. [my repo](https://github.com/samanthacsik/samanthacsik){target="_blank"} is named "samanthacsik", which matches my GitHub username)
 2. Make sure your repo is **Public** and initialize it with a **README**
 3. Click the **Edit README** button to edit directly in the browser (I find this easier than cloning and editing locally)
 
 ::: {.footer}
-See [GitHub documentation](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme){target="_blank} for more info on profile READMEs 
+See [GitHub documentation](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme){target="_blank"} for more info on profile READMEs 
 :::
 
 ---
@@ -276,7 +276,7 @@ See [GitHub documentation](https://docs.github.com/en/account-and-profile/settin
   - [**Personal project**]{.teal-text} descriptions + links
   - Something(s) that you're [**currently working on**]{.teal-text}
   - Guidance on how to connect with your [**professional communities**]{.teal-text}
-- Some template suggestions are provided when you first create your repo / initialize your README (and check out the [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/){target="_blank})
+- Some template suggestions are provided when you first create your repo / initialize your README (and check out the [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/){target="_blank"})
 ::: 
 
 ::: {.footer}
@@ -322,7 +322,7 @@ knitr::include_graphics(here::here("images", "profile-readme-source.gif"))
 :::
 
 ::: {.right-align-text}
-[-W3C Web Accessibility Initiative](https://www.w3.org/WAI/fundamentals/accessibility-intro/){target="_blank}
+[-W3C Web Accessibility Initiative](https://www.w3.org/WAI/fundamentals/accessibility-intro/){target="_blank"}
 :::
 
 ---
